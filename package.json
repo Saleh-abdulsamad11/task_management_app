@@ -1,23 +1,8 @@
 {
-  "name": "task_management_app",
-  "version": "1.0.0",
-  "description": "Task Management App ",
-  "main": "Task Management App",
-  "scripts": {
-    "test": "start"
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mysql": "^2.18.1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Saleh-abdulsamad11/task_management_app.git"
-  },
-  "keywords": [
-    "Task",
-    "management"
-  ],
-  "author": "Sasco Jay Tech",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Saleh-abdulsamad11/task_management_app/issues"
-  },
-  "homepage": "https://github.com/Saleh-abdulsamad11/task_management_app#readme"
+  "scripts": {"start": "start"}
 }
